@@ -1,0 +1,307 @@
+--------------------------------------------------------------------------------
+
+hyp: {
+ Nclasses: 10,
+ A: (794, 20, 20, 20),
+ f_hid: ReLU(),
+ lr_hot: 0.01,
+ lr_cold: 0.01,
+ momentum: 0.99,
+ weight_decay: 0.0001,
+ temperature: 0.1,
+ kernel_scale: 30.0,
+ Nepochs: 24,
+}
+E(VL) = 0.0774
+E(TR) = 0.071
+
+--------------------------------------------------------------------------------
+
+hyp: {
+ Nclasses: 10,
+ A: (794, 20, 20, 20),
+ f_hid: ReLU(),
+ lr_hot: 0.01,
+ lr_cold: 0.01,
+ momentum: 0.99,
+ weight_decay: 0.0001,
+ temperature: 1.0,
+ kernel_scale: 3.0,
+ Nepochs: 24,
+}
+E(VL) = 0.0781
+E(TR) = 0.072
+
+--------------------------------------------------------------------------------
+
+hyp: {
+ Nclasses: 10,
+ A: (794, 20, 20, 20),
+ f_hid: ReLU(),
+ lr_hot: 0.01,
+ lr_cold: 0.01,
+ momentum: 0.99,
+ weight_decay: 0.0001,
+ temperature: 0.1,
+ kernel_scale: 0.3,
+ Nepochs: 24,
+}
+E(VL) = 0.0791
+E(TR) = 0.0712
+
+--------------------------------------------------------------------------------
+
+hyp: {
+ Nclasses: 10,
+ A: (794, 20, 20, 20),
+ f_hid: ReLU(),
+ lr_hot: 0.01,
+ lr_cold: 0.01,
+ momentum: 0.99,
+ weight_decay: 0.0001,
+ temperature: 0.1,
+ kernel_scale: 3.0,
+ Nepochs: 24,
+}
+E(VL) = 0.0813
+E(TR) = 0.07394
+
+--------------------------------------------------------------------------------
+
+hyp: {
+ Nclasses: 10,
+ A: (794, 20, 20, 20),
+ f_hid: ReLU(),
+ lr_hot: 0.01,
+ lr_cold: 0.01,
+ momentum: 0.99,
+ weight_decay: 0.0001,
+ temperature: 10.0,
+ kernel_scale: 3.0,
+ Nepochs: 24,
+}
+E(VL) = 0.0901
+E(TR) = 0.08366
+
+--------------------------------------------------------------------------------
+
+hyp: {
+ Nclasses: 10,
+ A: (794, 20, 20, 20),
+ f_hid: ReLU(),
+ lr_hot: 0.01,
+ lr_cold: 0.01,
+ momentum: 0.99,
+ weight_decay: 0.0001,
+ temperature: 1.0,
+ kernel_scale: 0.3,
+ Nepochs: 24,
+}
+E(VL) = 0.0929
+E(TR) = 0.08472
+
+--------------------------------------------------------------------------------
+
+hyp: {
+ Nclasses: 10,
+ A: (794, 20, 20, 20),
+ f_hid: ReLU(),
+ lr_hot: 0.01,
+ lr_cold: 0.01,
+ momentum: 0.99,
+ weight_decay: 0.0001,
+ temperature: 1.0,
+ kernel_scale: 30.0,
+ Nepochs: 24,
+}
+E(VL) = 0.1088
+E(TR) = 0.10084
+
+--------------------------------------------------------------------------------
+
+hyp: {
+ Nclasses: 10,
+ A: (794, 20, 20, 20),
+ f_hid: ReLU(),
+ lr_hot: 0.01,
+ lr_cold: 0.01,
+ momentum: 0.99,
+ weight_decay: 1e-06,
+ temperature: 10.0,
+ kernel_scale: 3.0,
+ Nepochs: 24,
+}
+E(VL) = 0.1217
+E(TR) = 0.11112
+
+--------------------------------------------------------------------------------
+
+hyp: {
+ Nclasses: 10,
+ A: (794, 20, 20, 20),
+ f_hid: ReLU(),
+ lr_hot: 0.01,
+ lr_cold: 0.01,
+ momentum: 0.99,
+ weight_decay: 0.0001,
+ temperature: 10.0,
+ kernel_scale: 30.0,
+ Nepochs: 24,
+}
+E(VL) = 0.1279
+E(TR) = 0.12152
+
+--------------------------------------------------------------------------------
+
+hyp: {
+ Nclasses: 10,
+ A: (794, 20, 20, 20),
+ f_hid: ReLU(),
+ lr_hot: 0.01,
+ lr_cold: 0.01,
+ momentum: 0.99,
+ weight_decay: 1e-06,
+ temperature: 0.1,
+ kernel_scale: 3.0,
+ Nepochs: 24,
+}
+E(VL) = 0.1349
+E(TR) = 0.12704
+
+--------------------------------------------------------------------------------
+
+hyp: {
+ Nclasses: 10,
+ A: (794, 20, 20, 20),
+ f_hid: ReLU(),
+ lr_hot: 0.01,
+ lr_cold: 0.01,
+ momentum: 0.99,
+ weight_decay: 1e-06,
+ temperature: 1.0,
+ kernel_scale: 30.0,
+ Nepochs: 24,
+}
+E(VL) = 0.1506
+E(TR) = 0.1405
+
+--------------------------------------------------------------------------------
+
+hyp: {
+ Nclasses: 10,
+ A: (794, 20, 20, 20),
+ f_hid: ReLU(),
+ lr_hot: 0.01,
+ lr_cold: 0.01,
+ momentum: 0.99,
+ weight_decay: 1e-06,
+ temperature: 1.0,
+ kernel_scale: 3.0,
+ Nepochs: 24,
+}
+E(VL) = 0.1534
+E(TR) = 0.14172
+
+--------------------------------------------------------------------------------
+
+hyp: {
+ Nclasses: 10,
+ A: (794, 20, 20, 20),
+ f_hid: ReLU(),
+ lr_hot: 0.01,
+ lr_cold: 0.01,
+ momentum: 0.99,
+ weight_decay: 1e-06,
+ temperature: 10.0,
+ kernel_scale: 30.0,
+ Nepochs: 24,
+}
+E(VL) = 0.1647
+E(TR) = 0.15532
+
+--------------------------------------------------------------------------------
+
+hyp: {
+ Nclasses: 10,
+ A: (794, 20, 20, 20),
+ f_hid: ReLU(),
+ lr_hot: 0.01,
+ lr_cold: 0.01,
+ momentum: 0.99,
+ weight_decay: 1e-06,
+ temperature: 1.0,
+ kernel_scale: 0.3,
+ Nepochs: 24,
+}
+E(VL) = 0.2642
+E(TR) = 0.25888
+
+--------------------------------------------------------------------------------
+
+hyp: {
+ Nclasses: 10,
+ A: (794, 20, 20, 20),
+ f_hid: ReLU(),
+ lr_hot: 0.01,
+ lr_cold: 0.01,
+ momentum: 0.99,
+ weight_decay: 1e-06,
+ temperature: 0.1,
+ kernel_scale: 0.3,
+ Nepochs: 24,
+}
+E(VL) = 0.282
+E(TR) = 0.27598
+
+--------------------------------------------------------------------------------
+
+hyp: {
+ Nclasses: 10,
+ A: (794, 20, 20, 20),
+ f_hid: ReLU(),
+ lr_hot: 0.01,
+ lr_cold: 0.01,
+ momentum: 0.99,
+ weight_decay: 1e-06,
+ temperature: 0.1,
+ kernel_scale: 30.0,
+ Nepochs: 24,
+}
+E(VL) = 0.3548
+E(TR) = 0.35036
+
+--------------------------------------------------------------------------------
+
+hyp: {
+ Nclasses: 10,
+ A: (794, 20, 20, 20),
+ f_hid: ReLU(),
+ lr_hot: 0.01,
+ lr_cold: 0.01,
+ momentum: 0.99,
+ weight_decay: 0.0001,
+ temperature: 10.0,
+ kernel_scale: 0.3,
+ Nepochs: 24,
+}
+E(VL) = 0.8945
+E(TR) = 0.89272
+
+--------------------------------------------------------------------------------
+
+hyp: {
+ Nclasses: 10,
+ A: (794, 20, 20, 20),
+ f_hid: ReLU(),
+ lr_hot: 0.01,
+ lr_cold: 0.01,
+ momentum: 0.99,
+ weight_decay: 1e-06,
+ temperature: 10.0,
+ kernel_scale: 0.3,
+ Nepochs: 24,
+}
+E(VL) = 0.9029
+E(TR) = 0.90098
+
+--------------------------------------------------------------------------------
