@@ -6,7 +6,7 @@ In this file we describe tecnical details about how experiments are performed.
 
 Let's say we've a training set $D = \\{ (\mathbf{x}_i, y_i) \\} _{i = 1}^N$ where $y_i \in \\{ 1, \ldots, C \\}$ and $C$ is the number of classes. To train models with SGD, minibatches of size 128 are sampled by boostrap (sampling with replacement) from $D$. Once a minibatch has been sampled, before to give it to the model, half of it (64 randomly chosen data) is made *negative*: these data are concatenated with 1-hot encodings of random wrong classes. The ramaining half of the minibatch is used as *positive*: these data are concatenated with 1-hot encodings of their own classes.
 
-Conceptually, the entire dataset made by all possible positive and negative data has length $N \cdot C$. Since a *training epoch* is usually defined as a complete pass over the entire training set, in our experiments an epoch is defined as "$N \cdot C$ data have been presented to the model".
+Conceptually, the entire dataset made by all possible positive and negative data has length $N \cdot C$. Since a *training epoch* is usually defined as a complete pass over the entire training set, in our experiments we say that an epoch has passed when $N \cdot C$ data have been presented to the model.
 
 ## Model Training
 
