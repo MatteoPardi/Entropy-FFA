@@ -16,6 +16,8 @@ The project is separated in three subfolders, one for each dataset: *double moon
 
 The folder *_tools* contains tools needed to perform experiments: the FFA model, and useful classes to perform model selection or to manage tensor datasets. Moreover, here the file *twomoon.py* can be found, which is used to generate the datasets for double moon experiments (noisy and not noisy).
 
+Tecnical details about methods used to perform experiments can be found in *Methods.md*.
+
 ## Contact Me
 
 For any other additional information, you can email me at m.pardi3@studenti.unipi.it
