@@ -48,7 +48,7 @@ class FFA_Layer_Base (nn.Module):
     
 class FFA_Module_Base (nn.Module):
     '''
-    hyp = {
+    hyp example = {
         'Nclasses': 2,
         others... for the FFA_Layers
     }
@@ -64,7 +64,7 @@ class FFA_Module_Base (nn.Module):
         
     def get_layers (self):
     
-        # It must return a list of FFA_Macrolayers
+        # It must return a list of FFA_Layer_Base
         raise NotImplementedError
         
     def reset_parameters (self):
@@ -104,7 +104,7 @@ class FFA_Module_Base (nn.Module):
         
     def sum_normalized_goodness (self, x):
     
-        return F.normalize(self(x), p=1, dim=1, eps=0.)
+        return F.normalize(self(x), p=1, dim=1, eps=0)
         
     def predict (self, x):
 
