@@ -2,6 +2,20 @@
 
 In this file we describe tecnical details about how experiments are performed.
 
+## Normalization conventions
+
+The probability that a data is positive is defined as $p = \mathrm{Sigmoid} (g - \theta)$, where $g$ is the *goodness* and $\theta$ a learnable threshold. In our code, the goodness $g$ is defined as the mean-of-squares
+$$
+g = \frac{1}{d} || \mathbf{h} ||^2 = \frac{1}{d} \sum_{j=1}^d h_j^2 \ .
+$$
+We decide to use the mean-of-squares since we expect $\theta \sim O(1)$ in this way. Thus we can reasonably initialize $\theta = 0$. 
+
+If $\mathbf{h}^{(l)} \in \mathbb{R}^{(d)}$ is the hidden representation of layer $l$, and $\bar{\mathbf{h}}^{(l+1)} \mathbb{R}^{(d)}$ is the input of layer $l+1$, the normalization used is
+$$
+\bar{\mathbf{h}}^{(l+1)} = \sqrt{d} \cdot \mathbf{h}^{(l)} / || \mathbf{h}^{(l)} || \ .
+$$
+The factor $\sqrt{d}$ is useful to get $|| \bar{\mathbf{h}}^{(l)} ||^2 = d$, thus each component averagly $h_j^2 \sim 1$, as assumed by standard weight's initialization methods.
+
 ## Minibatches of positive and negative data
 
 Let's say we've a training set $D = \\{ (\mathbf{x}_i, y_i) \\} _{i = 1}^N$ where $y_i \in \\{ 1, \ldots, C \\}$ and $C$ is the number of classes. To train models with SGD, minibatches of size 128 are sampled by boostrap (sampling with replacement) from $D$. Once a minibatch has been sampled, before to give it to the model, half of it (64 randomly chosen data) is made *negative*: these data are concatenated with 1-hot encodings of random wrong classes. The ramaining half of the minibatch is used as *positive*: these data are concatenated with 1-hot encodings of their own classes.
