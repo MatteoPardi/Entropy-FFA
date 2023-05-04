@@ -12,7 +12,7 @@ $$
 
 We decide to use the mean-of-squares since we expect $\theta \sim O(1)$ in this way. Thus we can reasonably initialize $\theta = 0$. 
 
-If $\mathbf{h}^{(l)} \in \mathbb{R}^{(d)}$ is the hidden representation of layer $l$, and $\bar{\mathbf{h}}^{(l+1)} \mathbb{R}^{(d)}$ is the input of layer $l+1$, the normalization used is
+If $\mathbf{h}^{(l)} \in \mathbb{R}^{d}$ is the hidden representation of layer $l$, and $\bar{\mathbf{h}}^{(l+1)} \mathbb{R}^{d}$ is the input of layer $l+1$, the normalization used is
 
 $$
 \bar{\mathbf{h}}^{(l+1)} = \sqrt{d} \cdot \frac{\mathbf{h}^{(l)}}{|| \mathbf{h}^{(l)} ||} \ .
