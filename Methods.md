@@ -18,7 +18,7 @@ $$
 \bar{\mathbf{h}}^{(l+1)} = \sqrt{d} \cdot \frac{\mathbf{h}^{(l)}}{|| \mathbf{h}^{(l)} ||} \ .
 $$
 
-The factor $\sqrt{d}$ is useful to get $|| \bar{\mathbf{h}}^{(l)} ||^2 = d$, thus each component averagly $h_j^2 \sim 1$, as assumed by standard weight's initialization methods.
+The factor $\sqrt{d}$ is useful to get $|| \bar{\mathbf{h}}^{(l)} ||^2 = d$, thus averagly each component $h_j^2 \sim 1$, as assumed by standard weight's initialization methods.
 
 ## Minibatches of positive and negative data
 
