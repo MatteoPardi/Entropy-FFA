@@ -34,7 +34,7 @@ Stochastic gradient descent (SGD) with momentum is used as optimizer. As stoppin
 
 For FFA models, model selection is performed on *weight decay* $\lambda$, while for FFA+Entropy models on ($\lambda, T, s$), where $T$ is the *temperature* and $s$ the *kernel scale*. For details about ranges of hyperparameters explored, please refer to the jupyter notebooks dedicated to the experiments. 
 
-A simple hold-out training/validation is used. For each set of hyperparameters explored, accuracy's mean and std over $N_\mathrm{trials}$ trials is computed, and the final model is the one with greater mean accuracy. In double moon and noisy double moon experiments, we set $N_\mathrm{trials} = 3$ (trainings are fast, we can afford it), while in MNIST $N_\mathrm{trials} = 1$.
+A simple hold-out training/validation is used. For each set of hyperparameters explored, accuracy's mean and std over $N_\mathrm{trials}$ trials is computed, and the final model is the one with greater mean accuracy. In double moon and noisy double moon experiments we set $N_\mathrm{trials} = 3$ (trainings are fast, we can afford it), while in MNIST $N_\mathrm{trials} = 1$.
 
 ## Model Assessment
 
