@@ -5,15 +5,19 @@ In this file we describe tecnical details about how experiments are performed.
 ## Normalization conventions
 
 The probability that a data is positive is defined as $p = \mathrm{Sigmoid} (g - \theta)$, where $g$ is the *goodness* and $\theta$ a learnable threshold. In our code, the goodness $g$ is defined as the mean-of-squares
+
 $$
 g = \frac{1}{d} || \mathbf{h} ||^2 = \frac{1}{d} \sum_{j=1}^d h_j^2 \ .
 $$
+
 We decide to use the mean-of-squares since we expect $\theta \sim O(1)$ in this way. Thus we can reasonably initialize $\theta = 0$. 
 
 If $\mathbf{h}^{(l)} \in \mathbb{R}^{(d)}$ is the hidden representation of layer $l$, and $\bar{\mathbf{h}}^{(l+1)} \mathbb{R}^{(d)}$ is the input of layer $l+1$, the normalization used is
+
 $$
-\bar{\mathbf{h}}^{(l+1)} = \sqrt{d} \cdot \mathbf{h}^{(l)} / || \mathbf{h}^{(l)} || \ .
+\bar{\mathbf{h}}^{(l+1)} = \sqrt{d} \cdot \frac{\mathbf{h}^{(l)}}{|| \mathbf{h}^{(l)} ||} \ .
 $$
+
 The factor $\sqrt{d}$ is useful to get $|| \bar{\mathbf{h}}^{(l)} ||^2 = d$, thus each component averagly $h_j^2 \sim 1$, as assumed by standard weight's initialization methods.
 
 ## Minibatches of positive and negative data
