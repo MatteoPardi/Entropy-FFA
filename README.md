@@ -5,7 +5,11 @@ Accompanying code to reproduce experiments from the paper "Entropy Based Regular
 
 **Authors**: Matteo Pardi, Domenico Tortorella and Alessio Micheli.
 
-The forward-forward algorithm (FFA) is a recently proposed alternative to end-to-end backpropagation in deep neural networks. FFA builds networks greedily layer by layer, thus being of particular interest in applications where memory and computational constraints are important. In this paper we propose a novel regularization term for the layer-wise loss function that is based on Renyi's quadratic entropy, in order to boosts layers' ability to transfer useful information to subsequent layers. Preliminary experiments show accuracy is generally significantly improved across all network architectures. In particular, smaller architectures become more effective in addressing our classification tasks compared to the original FFA.
+The forward-forward algorithm (FFA) is a recently proposed alternative to end-to-end backpropagation in deep neural networks.
+FFA builds networks greedily layer by layer, thus being of particular interest in applications where memory and computational constraints are important.
+In order to boost layers' ability to transfer useful information to subsequent layers, in this paper we propose a novel regularization term for the layer-wise loss function that is based on Renyi's quadratic entropy.
+Preliminary experiments show accuracy is generally significantly improved across all network architectures.
+In particular, smaller architectures become more effective in addressing our classification tasks compared to the original FFA.
 
 ## Guide
 
