@@ -17,9 +17,8 @@ The project is separated in three subfolders, one for each dataset: *double moon
 - Jupyter *Notebooks (already ran) to run experiments*. Each experiment has its own notebook, and in it all details about that particular experiment can be easily read, such as model selection or assessment strategy, or the learning curves. 
 - A folder containing the *model selection results*.
 - A folder containing the *final models*, saved as Pytorch models.
-In various files, the names *T off* and *T on* are used to respectively refer to FFA and FFA+Entropy models.
 
-The folder *_tools* contains tools needed to perform experiments: the FFA model, and useful classes to perform model selection or to manage tensor datasets. Moreover, here the file *twomoon.py* can be found, which is used to generate the datasets for double moon experiments (noisy and not noisy).
+In various files, the names *T off* and *T on* are used to respectively refer to FFA and FFA+Entropy models. The folder *_tools* contains tools needed to perform experiments: the FFA+Entropy model, and useful classes to perform model selection or to manage tensor datasets. Moreover, here the file *twomoon.py* can be found, which is used to generate the datasets for double moon experiments (noisy and not noisy).
 
 Tecnical details about methods used to perform experiments can be found in *Methods.md*.
 
