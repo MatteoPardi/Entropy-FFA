@@ -1,0 +1,13 @@
+\begin{tabular}{|c|c@{\hspace{6pt}}c|c@{\hspace{6pt}}c|c@{\hspace{6pt}}c|}
+\hline
+\textsc{L.} & \textsc{FFA} 20 & \textsc{+Ent.} 20 & \textsc{FFA} 200 & \textsc{+Ent.} 200 & \textsc{FFA} 2000 & \textsc{+Ent.} 2000 \\
+\hline
+all & ${92.86}_{\pm 0.15}$ & $\mathbf{93.36}_{\pm 0.21}$ & ${97.93}_{\pm 0.10}$ & $\mathbf{98.22}_{\pm 0.08}$ & ${98.52}_{\pm 0.07}$ & $\mathbf{98.61}_{\pm 0.06}$ \\
+\hline
+1 & ${92.42}_{\pm 0.12}$ & $\mathbf{92.50}_{\pm 0.17}$ & $\mathbf{97.35}_{\pm 0.12}$ & $\mathbf{97.35}_{\pm 0.07}$ & ${96.93}_{\pm 0.03}$ & $\mathbf{97.36}_{\pm 0.04}$ \\
+2 & ${92.56}_{\pm 0.32}$ & $\mathbf{92.92}_{\pm 0.10}$ & ${97.91}_{\pm 0.10}$ & $\mathbf{98.07}_{\pm 0.11}$ & ${98.55}_{\pm 0.06}$ & $\mathbf{98.56}_{\pm 0.06}$ \\
+3 & ${87.47}_{\pm 1.76}$ & $\mathbf{92.39}_{\pm 0.24}$ & ${95.59}_{\pm 0.19}$ & $\mathbf{97.95}_{\pm 0.08}$ & ${97.74}_{\pm 0.17}$ & $\mathbf{98.39}_{\pm 0.11}$ \\
+\hline
+$\star$ & ${92.42}_{\pm 0.26}$ & $\mathbf{93.21}_{\pm 0.12}$ & ${97.79}_{\pm 0.14}$ & $\mathbf{98.23}_{\pm 0.09}$ & ${98.53}_{\pm 0.07}$ & $\mathbf{98.58}_{\pm 0.08}$ \\
+\hline
+\end{tabular}

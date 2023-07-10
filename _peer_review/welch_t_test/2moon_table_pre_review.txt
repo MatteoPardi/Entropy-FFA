@@ -1,0 +1,13 @@
+\begin{tabular}{|c|c@{\hspace{4pt}}c|c@{\hspace{4pt}}c|c@{\hspace{4pt}}c|}
+\hline
+\textsc{Layer} & \textsc{FFA} 10 & \textsc{+Ent.} 10 & \textsc{FFA} 100 & \textsc{+Ent.} 100 & \textsc{FFA} 1000 & \textsc{+Ent.} 1000 \\
+\hline
+all & ${90.0}_{\pm 0.1}$ & $\mathbf{99.2}_{\pm 0.7}$ & ${97.5}_{\pm 1.8}$ & $\mathbf{100.0}_{\pm 0.0}$ & ${97.2}_{\pm 0.4}$ & $\mathbf{100.0}_{\pm 0.0}$ \\
+\hline
+1 & ${90.2}_{\pm 0.6}$ & $\mathbf{91.0}_{\pm 0.1}$ & $\mathbf{90.5}_{\pm 0.1}$ & $\mathbf{90.5}_{\pm 0.1}$ & $\mathbf{86.5}_{\pm 0.1}$ & $\mathbf{86.5}_{\pm 0.1}$ \\
+2 & ${90.2}_{\pm 0.3}$ & $\mathbf{99.6}_{\pm 0.2}$ & $\mathbf{100.0}_{\pm 0.0}$ & $\mathbf{100.0}_{\pm 0.0}$ & $\mathbf{100.0}_{\pm 0.0}$ & $\mathbf{100.0}_{\pm 0.0}$ \\
+3 & ${63.3}_{\pm 18.2}$ & $\mathbf{99.5}_{\pm 0.6}$ & ${98.2}_{\pm 2.2}$ & $\mathbf{100.0}_{\pm 0.0}$ & ${94.0}_{\pm 2.3}$ & $\mathbf{100.0}_{\pm 0.0}$ \\
+\hline
+$\star$ (2+3) & ${89.2}_{\pm 0.5}$ & $\mathbf{99.7}_{\pm 0.4}$ & ${99.9}_{\pm 0.2}$ & $\mathbf{100.0}_{\pm 0.0}$ & ${98.2}_{\pm 1.1}$ & $\mathbf{100.0}_{\pm 0.0}$ \\
+\hline
+\end{tabular}
