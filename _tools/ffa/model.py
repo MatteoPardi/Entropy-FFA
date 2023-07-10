@@ -114,7 +114,7 @@ class FFA_withEntropy (Fully_Connected_Module):
         lr_policy = LR_Policy(self.hyp['lr_hot'], self.hyp['lr_cold'], self.hyp['Nepochs'])
         self.optim_scheduler = LambdaLR(self.optim, lr_lambda=lr_policy)     
         
-        self.requires_grad_(True)
+        self.layers[layer].requires_grad_(True)
         for Nep in range(self.hyp['Nepochs']):
             if verbose: print(f"  epoch {Nep+1} running...", end='')
             L, H, Lreg = self.TR_loop_1lay(TR_pndl, layer)
@@ -127,7 +127,7 @@ class FFA_withEntropy (Fully_Connected_Module):
         else: 
             for key, val in self.curves[layer].items():
                 val += curve[key]
-        self.requires_grad_(False)
+        self.layers[layer].requires_grad_(False)
     
     def fit (self, TR_pndl, reset=True, verbose=False):
         

@@ -1,0 +1,7 @@
+\begin{tabular}{|c|c@{\hspace{6pt}}c|c@{\hspace{6pt}}c|c@{\hspace{6pt}}c|}
+\hline
+{} & \textsc{FFA} 20 & \textsc{+Ent.} 20 & \textsc{FFA} 200 & \textsc{+Ent.} 200 & \textsc{FFA} 2000 & \textsc{+Ent.} 2000 \\
+\hline
+time [s] & ${931}_{\pm 20}$ & ${1288}_{\pm 62}$ & ${970}_{\pm 36}$ & ${1368}_{\pm 57}$ & ${1204}_{\pm 21}$ & ${1896}_{\pm 2}$ \\
+\hline
+\end{tabular}
