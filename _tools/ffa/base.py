@@ -106,6 +106,10 @@ class FFA_Module_Base (nn.Module):
     
         return F.normalize(self(x), p=1, dim=1, eps=0)
         
+    def predict_proba (self, x):
+    
+        return F.softmax(self(x), dim=1)
+        
     def predict (self, x):
 
         return th.argmax(self(x), dim=1, keepdim=True)
