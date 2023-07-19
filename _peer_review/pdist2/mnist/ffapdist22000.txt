@@ -1,0 +1,26 @@
+file: ffapdist22000_mass_mnistflat_20230715_234146.pickle
+device: Tesla P100-PCIE-16GB
+model: Fully_Connected_withEntropy
+sample_size: {'tot': 5, 'n_folds': 1, 'n_trials': 5}
+hyp:
+  n_classes: 10
+  archit: (794, 2000, 2000, 2000)
+  f_hid: ReLU()
+  weight_decay: 1e-08
+  temperature: 1e-08
+  entropy_method: 'pdist2'
+  lr_hot: 0.1
+  lr_cold: 0.1
+  momentum: 0.995
+  n_epochs: 30
+time: 1733.35 +- 37.4 sec
+E(TS): 0.01508 +- 0.000792
+E(TR): 0.000593333 +- 0.000231
+E(TR)lay1: 0.02334 +- 0.000184
+E(TS)lay1: 0.03038 +- 0.000904
+E(TR)lay2: 0.000753333 +- 0.000355
+E(TS)lay2: 0.01498 +- 0.00102
+E(TR)lay3: 0.00225 +- 0.000435
+E(TS)lay3: 0.02108 +- 0.000807
+E(TR)all: 0.00092 +- 0.000257
+E(TS)all: 0.01516 +- 0.00082

@@ -1,0 +1,26 @@
+file: ffapdist2100_mass_nsy2moon_ESANN_20230719_162614.pickle
+device: NVIDIA GeForce RTX 3060 Laptop GPU
+model: Fully_Connected_withEntropy
+sample_size: {'tot': 5, 'n_folds': 1, 'n_trials': 5}
+hyp:
+  n_classes: 2
+  archit: (4, 100, 100, 100)
+  f_hid: ReLU()
+  lr_hot: 0.3
+  lr_cold: 0.001
+  momentum: 0.98
+  weight_decay: 1.3848049295547941e-06
+  temperature: 1.036931880291024e-05
+  entropy_method: 'pdist2'
+  n_epochs: 300
+time: 31.317 +- 1.58 sec
+E(TS): 0.025 +- 0.005
+E(TR): 0.026 +- 0.0067
+E(TR)lay1: 0.115 +- 0.000884
+E(TS)lay1: 0.086 +- 0.00224
+E(TR)lay2: 0.03375 +- 0.00776
+E(TS)lay2: 0.029 +- 0.00418
+E(TR)lay3: 0.027 +- 0.00549
+E(TS)lay3: 0.02 +- 0.00791
+E(TR)all: 0.04125 +- 0.00805
+E(TS)all: 0.037 +- 0.00837
