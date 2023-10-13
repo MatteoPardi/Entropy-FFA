@@ -28,7 +28,7 @@ Conceptually, the entire dataset made by all possible positive and negative data
 
 ## Hyper-parameter selection
 
-Stochastic gradient descent (SGD) with momentum is used as optimizer. As stopping criterium, we fix the number of epochs. For each experiment, hyperparameters defining SGD (learning rate $\eta$, momentum $\alpha$, number of epochs $N_{ep}$) have been selected performing a manual screening. In double moon and noisy double moon experiment, a learning rate annealing schedule is used, since during the manual screening we noticed that in this way faster and better trainings were obtained. An exponentially decaying schedule is used: $\eta$ goes from a bigger value $\eta_\mathrm{hot}$ to a smaller one $\eta_\mathrm{cold}$ in $N_{ep}$ epochs.
+Stochastic gradient descent (SGD) with momentum is used as optimizer. As stopping criterion, we fix the number of epochs. For each experiment, hyperparameters defining SGD (learning rate $\eta$, momentum $\alpha$, number of epochs $N_{ep}$) have been selected performing a manual screening. In double moon and noisy double moon experiment, a learning rate annealing schedule is used, since during the manual screening we noticed that in this way faster and better trainings were obtained. An exponentially decaying schedule is used: $\eta$ goes from a bigger value $\eta_\mathrm{hot}$ to a smaller one $\eta_\mathrm{cold}$ in $N_{ep}$ epochs.
 
 For FFA models, model selection is performed on *weight decay* $\lambda$, while for FFA+Entropy models on ($\lambda, T, s$), where $T$ is the *temperature* and $s$ the *kernel scale*. For details about ranges of hyperparameters explored, please refer to the jupyter notebooks dedicated to the experiments. 
 
